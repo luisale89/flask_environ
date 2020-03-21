@@ -12,6 +12,6 @@ The following commands are available to run your code:
 On new projects, yo need to remeber:
 
 - create a copy of .env.example file in root folder, and change the name of that copy to .env
-- create database in mysql, and set the name of the database URI inside .env file
+- create database in mysql, and set the URI inside .env file
 - run migrations commands to create new schema.
 - start coding
