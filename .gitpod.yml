@@ -4,5 +4,5 @@ tasks:
   - init: |
       cp .env.example .env;
       pipenv install;
-      createdb -h localhost -p 5432 -U gitpod example;
+      createdb -h localhost -U gitpod example;
       
