@@ -6,24 +6,6 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-flask = "*"
-flask-sqlalchemy = "*"
-flask-migrate = "*"
-mysql-connector-python = "*"
-sqlalchemy = "*"
-flask-cors = "*"
-mysqlclient = "*"
-flask-jwt-extended = "*"
-flask-script = "*"
-flask-bcrypt = "*"
-flask-ext = "*"
-python-dotenv = "*"
 
 [requires]
-python_version = "3.6"
-
-[scripts]
-start = "flask run -p 3000 -h 0.0.0.0"
-init = "flask db init"
-migrate = "flask db migrate"
-upgrade = "flask db upgrade"
+python_version = "3.8"
