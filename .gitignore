@@ -6,5 +6,6 @@ database.database
 database.db
 public/*
 dist/*
+migrations/*
 
 __pycache__/

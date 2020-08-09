@@ -5,4 +5,10 @@ tasks:
       cp .env.example .env;
       pipenv install;
       createdb -h localhost -U gitpod example;
+      pipenv run init;
+      pipenv run migrate;
+      pipenv run upgrade;
+    command: >
+      pipenv run start;
+      
       
