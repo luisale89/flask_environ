@@ -1,6 +1,7 @@
 .env
 .venv
 .vscode
+.theia
 database.database
 database.db
 public/*
